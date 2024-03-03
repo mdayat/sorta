@@ -1,7 +1,13 @@
 package main
 
-import "github.com/mdayat/sorta/cmd"
+import (
+	"os"
+
+	"github.com/mdayat/sorta/cmd"
+)
 
 func main() {
-	cmd.Execute()
+	if err := cmd.Execute(); err != nil {
+		os.Exit(1)
+	}
 }
