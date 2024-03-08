@@ -6,6 +6,8 @@ Stands for "Sorting Algorithm," a minimalist terminal-based sorting algorithms c
 
 Since I work in a field that rarely uses sorting algorithms, I need to find a way to quickly remember them. I found that building a minimalist terminal-based app would meet my needs.
 
+Additionally, this project serves as **documentation** of my learning about sorting algorithms, including understanding their time complexity, pros, and cons.
+
 ## Quick Start
 
 Since this app is built with Go, I recommend installing it using Go commands
